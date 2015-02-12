@@ -12,3 +12,166 @@
 */
 
 @import url("../skillful-wp/style.css");
+
+body {
+	font-size: 16px;
+}
+
+/* Overrides parent theme */
+.raleway, h1, h2, h3, h4, h5, h6, #nav .sf-menu a, #nav .thb_mega_menu_holder .megamenu-title, #quick_cart .float_count, .post .post-gallery.editorial .header-container strong, .post .post-gallery.link h3, label, .more-link, #mobile-full > div ul a, .filters li a, #comments_popup_link, .product-information .yith-wcwl-add-to-wishlist .add_to_wishlist, .shipping-calculator-button, .btn,
+.button,
+input[type=submit],
+.comment-reply-link, ul.accordion > li > div.title, ul.accordion.style3 > li > div.title, dl.tabs dd a,
+dl.tabs li a,
+ul.tabs dd a,
+ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter .timertitle, .testimonials p, .testimonials small, .testimonials .author-title, .job_application .title, .knob strong, .masonry_btn {
+  font-family: 'Open Sans', serif;
+}
+
+
+/* contact page map css - restore map navigation */
+#map-canvas img {
+    max-width: inherit;
+}
+#map-canvas {
+    width: 100%;
+}
+
+/** Hide unneded content **/
+	#pagetitle {
+	    display: none !important;
+	}
+
+	/* Product page - hide filters*/
+	.filters li {
+	    display: none;
+	}
+
+	/* hide comments */
+	#comments {
+		display: none;
+	}
+	/* hide related */
+
+	.related {
+	   display: none;
+	}
+
+/** Base styling **/
+
+[role=main] {
+	padding-top: 50px;
+}
+/* Logo */
+
+.header .logo .logoimg {
+	max-height: inherit;
+}
+/** Footer styling **/
+
+#footer {
+	background-image: none;
+}
+
+/* Home page - styling image meni */
+/*.home-image-meni .columns {
+    text-align: center;
+    margin: 15px auto;
+}
+.home-image-meni .columns img {
+    display: block;
+
+    margin-bottom: 10px;
+    float: none !important;
+}
+.home-image-meni .columns p {
+    display: inline;
+    font-weight: normal;
+    padding-top: 15px;
+}
+.home-image-meni .column-product-category {
+    overflow: hidden;
+    border: 3px solid #012F53;
+    border-radius: 20px;
+    padding: 5px 5px;
+    display: inline-block;
+    min-height: 130px;
+    width: 180px; 
+    background-color: rgb(243,243,243);
+}
+*/
+/** Contact form styling **/
+.post .post-content .ninja-forms-form-title {
+	font-size: 1.3em;
+}
+
+/* required items info */
+.ninja-forms-required-items {
+	font-size: 0.7em;
+	color: #ADADAD;
+	padding-bottom: 15px;
+}
+
+.ninja-forms-cont {
+	font-family: Open Sans;
+}
+
+.text-wrap.label-above label,
+.textarea-wrap.label-above label {
+	font-weight: normal !important;
+	color: #5E5F62;
+}
+
+.column-left-wrap {
+	/*border: 1px solid red;*/
+	width: 45%;
+	float: left;
+}
+
+.column-right-wrap {
+/*	border: 1px solid blue;*/
+	width: 45%;
+	float: right;
+}
+
+.column-full-wrap {
+/*	border: 1px solid green;*/
+	clear: both;
+}
+/* Begin  Main slider images */
+
+.owl-item figure {
+	text-align: center;
+}
+
+.fresco {
+	border: 3px solid#012f53;
+	/* overflow: hidden; */
+	border-radius: 30px;
+	background-color: #f3f3f3;
+	text-align: center;
+}
+
+.fresco .overlay-title {
+	background: none;
+}
+
+.column-product-category .fresco img {
+	/*border: 1px solid green;*/
+	width: 80%;
+	clear: both;
+	float: none !important;
+	margin-bottom: 40px;
+}
+
+/* end */
+
+/* FOOTER */
+
+#footer {
+	background: #3d3d3d;
+}
+
+#footer p {
+	color: white;
+}

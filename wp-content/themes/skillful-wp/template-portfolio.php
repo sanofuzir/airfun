@@ -40,7 +40,7 @@ Template Name: Portfolio - Ajax
 				}
 				?>
 			</ul>
-<h1>fsdfsdfsdfsdfsd</h1>
+
 			<div id="portfolioselect" class="show-for-small">
 				<a href="#" id="sortportfolio"><?php _e( 'Sort By:', THB_THEME_NAME ); ?></a>
 				<ul>

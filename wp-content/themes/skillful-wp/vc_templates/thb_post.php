@@ -68,7 +68,7 @@
 			
 		<?php } else {  ?> 
 		<div class="masonry posts row" data-equal="article">
-			
+		
 			<?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
 				<article <?php post_class('small-4 columns post item'); ?> id="post-<?php the_ID(); ?>">
 				  <?php

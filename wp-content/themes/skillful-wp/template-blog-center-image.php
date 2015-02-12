@@ -4,7 +4,7 @@ Template Name: Blog - Center Images
 */
 ?>
 <?php get_header(); ?>
-<div class="row"><h1>SAAAAAAAAAANOOOOOOO</h1>
+<div class="row">
 <section class="small-12 columns blog-section center-image">
   <?php 
   $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
