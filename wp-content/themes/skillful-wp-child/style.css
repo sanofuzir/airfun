@@ -67,44 +67,18 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 .header .logo .logoimg {
 	max-height: inherit;
 }
-/** Footer styling **/
 
-#footer {
-	background-image: none;
+/* Abount us */
+.abount-us {
+	margin-top: 100px;
 }
-
-/* Home page - styling image meni */
-/*.home-image-meni .columns {
-    text-align: center;
-    margin: 15px auto;
-}
-.home-image-meni .columns img {
-    display: block;
-
-    margin-bottom: 10px;
-    float: none !important;
-}
-.home-image-meni .columns p {
-    display: inline;
-    font-weight: normal;
-    padding-top: 15px;
-}
-.home-image-meni .column-product-category {
-    overflow: hidden;
-    border: 3px solid #012F53;
-    border-radius: 20px;
-    padding: 5px 5px;
-    display: inline-block;
-    min-height: 130px;
-    width: 180px; 
-    background-color: rgb(243,243,243);
-}
-*/
 /** Contact form styling **/
 .post .post-content .ninja-forms-form-title {
 	font-size: 1.3em;
 }
-
+.slovenia {
+	width: 40px!important;
+}
 /* required items info */
 .ninja-forms-required-items {
 	font-size: 0.7em;
@@ -165,6 +139,18 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 }
 
 /* end */
+
+/* articless meni */
+.overlay {
+	background: none!important;
+}
+.overlay-title h4 a {
+	display: none!important;
+}
+.post_categories {
+	color: #012f53!important;
+	text-shadow: 1px 1px white;
+}
 
 /* FOOTER */
 
