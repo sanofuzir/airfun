@@ -15,6 +15,7 @@
 
 body {
 	font-size: 16px;
+	font-family: Open Sans, sans-serif;
 }
 
 /* Overrides parent theme */
@@ -68,13 +69,17 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 	max-height: inherit;
 }
 
-/* Abount us */
-.abount-us {
-	margin-top: 100px;
+/* About us */
+.about-us .wpb_wrapper p {
+	font-size: 0.9em;
 }
+
 /** Contact form styling **/
 .post .post-content .ninja-forms-form-title {
 	font-size: 1.3em;
+}
+.ninja-forms-all-fields-wrap div {
+	margin-bottom: 0px!important;
 }
 .slovenia {
 	width: 40px!important;
@@ -140,18 +145,6 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 
 /* end */
 
-/* articless meni */
-.overlay {
-	background: none!important;
-}
-.overlay-title h4 a {
-	display: none!important;
-}
-.post_categories {
-	color: #012f53!important;
-	text-shadow: 1px 1px white;
-}
-
 /* FOOTER */
 
 #footer {
@@ -160,4 +153,12 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 
 #footer p {
 	color: white;
+}
+
+/* language selector */
+.lang-icon img {
+	width: 25px;
+}
+.lang {
+	float: right;
 }
