@@ -15,7 +15,7 @@
 
 body {
 	font-size: 16px;
-	font-family: Open Sans, sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 /* Overrides parent theme */
@@ -26,7 +26,7 @@ input[type=submit],
 dl.tabs li a,
 ul.tabs dd a,
 ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter .timertitle, .testimonials p, .testimonials small, .testimonials .author-title, .job_application .title, .knob strong, .masonry_btn {
-  font-family: 'Open Sans', serif;
+  font-family: 'Arial', sans-serif;
 }
 
 
@@ -70,16 +70,18 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 }
 
 /* About us */
+.about-text .wpb_wrapper {
+	margin: 0 30px;
+}
 .about-us .wpb_wrapper p {
 	font-size: 0.9em;
 }
-
 /** Contact form styling **/
 .post .post-content .ninja-forms-form-title {
 	font-size: 1.3em;
 }
 .ninja-forms-all-fields-wrap div {
-	margin-bottom: 0px!important;
+	margin-bottom: -10px!important;
 }
 .slovenia {
 	width: 40px!important;
@@ -102,49 +104,65 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 }
 
 .column-left-wrap {
-	/*border: 1px solid red;*/
 	width: 45%;
 	float: left;
+	margin-bottom: 10px;
 }
 
 .column-right-wrap {
-/*	border: 1px solid blue;*/
 	width: 45%;
 	float: right;
+	margin-bottom: 10px;
 }
 
 .column-full-wrap {
-/*	border: 1px solid green;*/
 	clear: both;
 }
 /* Begin  Main slider images */
 
-.owl-item figure {
+.home-slider .owl-item figure {
 	text-align: center;
 }
-
-.fresco {
+.products-images .fresco {
 	border: 3px solid#012f53;
 	/* overflow: hidden; */
-	border-radius: 30px;
+	border-radius: 20px;
 	background-color: #f3f3f3;
 	text-align: center;
+	line-height: inherit;
 }
-
-.fresco .overlay-title {
+#wrapper {
+	position: relative;
+	overflow-x: visible;
+	z-index: 0;
+}
+.products-images .fresco .overlay-title {
 	background: none;
+	padding: 10px 18px;
 }
 
-.column-product-category .fresco img {
+.products-images .column-product-category .fresco img {
 	/*border: 1px solid green;*/
-	width: 80%;
+	width: 70%;
 	clear: both;
 	float: none !important;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+}
+.products-images .portfolio.post {
+	margin-right: 40px;
+	margin-left: 40px;
 }
 
 /* end */
 
+/* image overlay on news */
+.fresco:hover .overlay, 
+.fresco .overlay {
+	background: none;
+}
+.widget_archive {
+	text-align: right;
+}
 /* FOOTER */
 
 #footer {
@@ -152,7 +170,7 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 }
 
 #footer p {
-	color: white;
+	color: #878787;
 }
 
 /* language selector */
@@ -161,4 +179,11 @@ ul.tabs li a, .toggle .title, .toggle.style1 .title, blockquote p, .thb_counter 
 }
 .lang {
 	float: right;
+}
+.lang a:first-child {
+	margin-right: 60px;
+}
+.hentry header.portfolio-title {
+
+	display: none;
 }
